@@ -161,7 +161,7 @@ var forceOld=false;
 function detectAndGoVersion(loadType){
 	if(forceOld){
 		swfobject.embedSWF(
-                "book.swf", "flashContent", 
+                "https://s3.eu-west-3.amazonaws.com/magazine-tm/5/book.swf", "flashContent", 
                 "100%", "100%", 
                 swfVersionStr, xiSwfUrlStr, 
                 flashvars, params, attributes);
@@ -185,7 +185,7 @@ function detectAndGoVersion(loadType){
 			 window.location ='files/basic-html/index.html';
 		}else {
 			 swfobject.embedSWF(
-                "book.swf", "flashContent", 
+                "https://s3.eu-west-3.amazonaws.com/magazine-tm/5/book.swf", "flashContent", 
                 "100%", "100%", 
                 swfVersionStr, xiSwfUrlStr, 
                 flashvars, params, attributes,callback);
@@ -204,7 +204,7 @@ function detectAndGoVersion(loadType){
 			}
 		}
 		swfobject.embedSWF(
-                "book.swf", "flashContent", 
+                "https://s3.eu-west-3.amazonaws.com/magazine-tm/5/book.swf", "flashContent", 
                 "100%", "100%", 
                 swfVersionStr, xiSwfUrlStr, 
                 flashvars, params, attributes,callback);
